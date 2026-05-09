@@ -22,6 +22,8 @@ LRPT - [Low Rate Picture Transmission](https://en.wikipedia.org/wiki/Low-rate_pi
 
 ![SatDump preview](satdump-preview.png)
 
+SatDump software shown during peak elevation (78°), capturing LRPT on 137.9 MHz. Decoder pipeline at bottom indicates synced status.
+
 ## Repository Structure
 
 ```
