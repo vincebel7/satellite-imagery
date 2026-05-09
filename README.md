@@ -2,6 +2,8 @@
 
 Personal archive of METEOR-M2 LRPT satellite passes received from Wayne County, Michigan.
 
+![Best pass - 2026-05-02, 78° max elevation](data/2026-05-02_19-33_meteor_m2-x_lrpt_137.9%20MHz/MSU-MR/msu_mr_rgb_MSA_corrected.png)
+
 ## Setup
 
 - **Receiver**: RTL-SDR Blog V4
