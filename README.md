@@ -1,15 +1,18 @@
-# lrpt
+# LRPT
 
 Personal archive of METEOR-M2 LRPT satellite passes received from Wayne County, Michigan.
 
-![Best pass - 2026-05-02, 78° max elevation](data/2026-05-02_19-33_meteor_m2-x_lrpt_137.9%20MHz/MSU-MR/msu_mr_rgb_MSA_corrected.png)
+<figure>
+  <img src="data/2026-05-02_19-33_meteor_m2-x_lrpt_137.9%20MHz/MSU-MR/msu_mr_rgb_MSA_corrected.png" alt="Best pass - 2026-05-02">
+  <figcaption>2026-05-02 — METEOR-M2-4, 78° max elevation. Best pass to date</figcaption>
+</figure>
 
 ## About LRPT
 LRPT - [Low Rate Picture Transmission](https://en.wikipedia.org/wiki/Low-rate_picture_transmission)
 
 [Beginner's guide](https://blog.metislair.com/docs/Radio/Beginners%20guide%20to%20weather%20satellite%20reception.html#preamble) (great resource)
 
-## Setup
+## Set  up
 
 - **Receiver**: [RTL-SDR Blog V4](https://www.rtl-sdr.com/about-rtl-sdr/)
 - **Antenna**: V-dipole, backyard deployment
