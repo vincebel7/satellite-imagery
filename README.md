@@ -3,7 +3,7 @@
 My personal archive of METEOR-M2 LRPT satellite passes received from Wayne County, Michigan.
 
 <figure>
-  <img src="data/2026-05-11_19-39_meteor_m2-x_lrpt_137.9%20MHz/MSU-MR/msu_mr_rgb_MSA_corrected.png" alt="Best pass - 2026-05-11">
+  <img src="data/2026-05-11_19-39_meteor_m2-x_lrpt_137.9%20MHz/MSU-MR/msu_mr_rgb_MSA_corrected.png" alt="Best pass - 2026-05-11" style="transform: rotate(180deg);">
   <figcaption>Captured 2026-05-11. Satellite: METEOR-M2-4, 87° max elevation. Best pass to date</figcaption>
 </figure>
 
