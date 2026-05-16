@@ -60,6 +60,14 @@ find "$SOURCE" -name "dataset.json" | while read -r dataset; do
             echo "  + MSU-MR/msu_mr_rgb_MSA_corrected.png"
         fi
 
+        # Another composite
+        if [ -f "$MSU_SRC/msu_mr_rgb_AVHRR_221_False_Color_corrected.png" ]; then
+            cp -n "$MSU_SRC/msu_mr_rgb_AVHRR_221_False_Color_corrected.png" "$MSU_DEST/"
+            echo "  + MSU-MR/msu_mr_rgb_AVHRR_221_False_Color_corrected.png"
+        fi
+
+
+
         # Individual channel images (1-3, not always all present)
         for ch in 1 2 3; do
             f="MSU-MR-${ch}.png"
