@@ -3,8 +3,8 @@
 My personal archive of METEOR-M2 LRPT satellite passes received from Wayne County, Michigan.
 
 <figure>
-  <img src="data/2026-05-11_19-39_meteor_m2-x_lrpt_137.9%20MHz/MSU-MR/msu_mr_rgb_MSA_corrected.png" alt="Best pass - 2026-05-11">
-  <figcaption>Captured 2026-05-11. Satellite: METEOR-M2-4, 87° max elevation. Best pass to date</figcaption>
+  <img src="data/2026-05-17_15-03_meteor_m2-x_lrpt_137.9%20MHz/MSU-MR/msu_mr_rgb_MSA_corrected.png" alt="Best pass - 2026-05-17">
+  <figcaption>Captured 2026-05-17. Satellite: METEOR-M2-3, 78° max elevation. Best pass to date</figcaption>
 </figure>
 
 ## About LRPT
@@ -62,6 +62,7 @@ python3 blackrow-analysis.py data/2026-05-09_20-06_meteor_m2-x_lrpt_137.9\ MHz/M
 
 | Date | Satellite | Max El | Direction | Peak SNR | Notes |
 |------|-----------|--------|-----------|----------|-------|
+| 2026-05-17 | METEOR-M2-3 | 78.53 | Southbound | 17.025 | New v2 V-dipole antenna, at a park with more horizon. Basically a perfect pass |
 | 2026-05-11 | METEOR-M2-4 | 11.8° | Northbound | 7.47 | First with DIY V-dipole antenna. Surprisingly decent for 11.8 elevation |
 | 2026-05-11 | METEOR-M2-4 | 87.44° | Northbound | 16.364 | Best one to date. Near-perfect elevation | 
 | 2026-05-11 | METEOR-M2-3 | 47.51° |  | — | Average | 
