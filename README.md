@@ -1,10 +1,10 @@
-# LRPT 🛰️
+# satellite imagery 🛰️
 
-My personal archive of METEOR-M2 LRPT satellite passes received from Wayne County, Michigan.
+My personal archive of satellite imagery, mostly from METEOR-M2 LRPT satellite passes and NOAA GOES-19 geostationary HRIT satellites.
 
 <figure>
   <img src="data/2026-05-17_15-03_meteor_m2-x_lrpt_137.9%20MHz/MSU-MR/msu_mr_rgb_MSA_corrected.png" alt="Best pass - 2026-05-17">
-  <figcaption>Captured 2026-05-17. Satellite: METEOR-M2-3, 78° max elevation. Best pass to date</figcaption>
+  <figcaption>Captured 2026-05-17. Satellite: METEOR-M2-3, 78° max elevation. Best LRPT pass to date</figcaption>
 </figure>
 
 ## About LRPT
