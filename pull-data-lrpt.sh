@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# pull-data.sh
-# Usage: ./pull-data.sh /path/to/live_output
-# Recursively finds METEOR pass directories and copies key files to ./data/
+# pull-data-lrpt.sh
+# Usage: ./pull-data-lrpt.sh /path/to/live_output
+# Recursively finds METEOR LRPT pass directories and copies key files to ./data/
 
 set -e
 
