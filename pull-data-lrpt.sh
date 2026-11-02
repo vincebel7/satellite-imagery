@@ -24,8 +24,8 @@ echo "Scanning: $SOURCE"
 echo "Output:   $DATA_DIR"
 echo ""
 
-# Find directories containing dataset.json (i.e. completed pass directories)
-find "$SOURCE" -name "dataset.json" | while read -r dataset; do
+# Find LRPT directories containing dataset.json (i.e. completed pass directories)
+find "$SOURCE" -path "*_lrpt_*/dataset.json" | while read -r dataset; do
     PASS_DIR="$(dirname "$dataset")"
     PASS_NAME="$(basename "$PASS_DIR")"
     DEST="$DATA_DIR/$PASS_NAME"
