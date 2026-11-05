@@ -1,16 +1,18 @@
 # satellite imagery 🛰️
 
-My personal archive of satellite imagery, mostly from METEOR-M2 LRPT satellite passes and NOAA GOES-19 geostationary HRIT satellites.
+My personal archive of satellite imagery, mostly from METEOR-M2 LRPT satellite passes and NOAA GOES-19 geostationary HRIT satellites. This repo holds some scripts and a few small previews.
 
-**Everything lives at [sat.vincebel.net](https://sat.vincebel.net):** every pass, complete and unfiltered, including all composites, EMWIN weather data, and text products. This repo holds the code and a few small previews.
+**Check out the full-resolution images: [https://sat.vincebel.net](https://sat.vincebel.net)** <br>(all composites, raw channels, EMWIN weather data, and text products/telemetry)
 
 <figure>
   <a href="https://sat.vincebel.net/misc/nov1-2026.gif"><img src="assets/nov1-2026.gif" alt="GOES-19 time-lapse - 2026-11-01"></a>
+  <br>
   <figcaption>Captured 2026-11-01. Satellite: GOES-19, Full Disk false color time-lapse over HRIT</figcaption>
 </figure>
-
+<br><br>
 <figure>
   <a href="https://sat.vincebel.net/meteor-hrpt/2026-11-01/2026-11-01_14-55_meteor_hrpt_1.7GHz/MSU-MR/msu_mr_rgb_AVHRR_221_False_Color_corrected.png"><img src="assets/hrpt-preview.jpg" alt="HRPT pass - 2026-11-01"></a>
+  <br>
   <figcaption>Captured 2026-11-01. Satellite: METEOR-M2-3, HRPT on 1.7 GHz, AVHRR 221 false color</figcaption>
 </figure>
 
@@ -97,7 +99,7 @@ python3 blackrow-analysis.py path/to/msu_mr_rgb_MSA_corrected.png
 | Date | Time (UTC) | Mode | Satellite | Max El | Direction | Peak SNR | Notes |
 |------|------------|------|-----------|--------|-----------|----------|-------|
 | 2026-11-01 | 15:47 – 00:24 | HRIT | GOES-19, GOES-18 | — | — | — | ~8.5 hour session. 26 GOES-19 Full Disk frames plus Mesoscale 1/2. Source of the time-lapse above |
-| 2026-11-01 | 14:55 | HRPT | METEOR-M2-3 | — | — | — | First HRPT pass. All 6 MSU-MR channels plus MTVZA. Image at the top |
+| 2026-11-01 | 14:55 | HRPT | METEOR-M2-3 | 80.16° | Southbound | — | First HRPT pass. All 6 MSU-MR channels plus MTVZA. Image at the top |
 | 2026-10-24 | 19:47 | LRPT | METEOR-M2-4 | — | — | — | Clean pass, Great Lakes clear |
 | 2026-07-18 | 10:44 – 16:07 | HRIT | GOES-19, GOES-18 | — | — | — | First HRIT session. 14 GOES-19 Full Disk frames plus Mesoscale 1/2 |
 | 2026-05-17 | 15:03 | LRPT | METEOR-M2-3 | 78.53° | Southbound | 17.025 | New v2 V-dipole antenna, at a park with more horizon. Basically a perfect pass |
