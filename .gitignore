@@ -1,2 +1,18 @@
 .DS_Store
 venv/
+
+# Satellite output lives on sat.vincebel.net, not in git
+data/
+live_output/
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.gif
+*.GIF
+*.cadu
+*.cbor
+
+# Small README previews are the one exception
+!assets/*
